@@ -132,8 +132,8 @@
                 />
 
             <Button style="@style/button2"
-                android:id="@+id/double_zero"
-                android:text="@string/_00"
+                android:id="@+id/decipoint"
+                android:text="@string/deci"
                 />
         </LinearLayout>
         <!--                  column 4 (from left)              -->
@@ -151,24 +151,24 @@
                 android:text="@string/div"
                 android:id="@+id/div"/>
 
-            <Button style="@style/button2"
+            <Button style="@style/button1"
                 android:text="@string/mul"
                 android:id="@+id/mul"
                 />
 
-            <Button style="@style/button2"
+            <Button style="@style/button1"
                 android:text="@string/minus"
                 android:id="@+id/minus"
                 />
 
-            <Button style="@style/button2"
+            <Button style="@style/button1"
                 android:text="@string/plus"
                 android:id="@+id/add"
                 />
 
-            <Button style="@style/button2"
-                android:text="@string/deci"
-                android:id="@+id/decipoint"
+            <Button style="@style/button1"
+                android:text="@string/equal"
+                android:id="@+id/equal"
                 />
         </LinearLayout>
 
